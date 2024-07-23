@@ -1,0 +1,17 @@
+REST API - JSON DATA EXPORT
+
+GET /users - List all users
+
+GET/ users/1 - Get the users with ID 1
+GET/ users/2 - Get the users with ID 2
+
+
+DYNAMIC PATH PARAMETERS
+GET /api/users/:id
+:id -> variable| Dynamic
+
+POST /users - Create new users
+
+PATCH/ users/1 - Edit the user with ID 1
+DELETE/ users/1 - Delte the user with ID 1
+
